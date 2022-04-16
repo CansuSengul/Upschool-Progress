@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PremiumActivity">
+
+    <TextView
+        android:id="@+id/premium_square2"
+        android:layout_width="153dp"
+        android:layout_height="129dp"
+        android:background="#F2F2F3"
+        android:hint="$4.99"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_premium_image" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/EntryTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/get_unlimited_access"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#2C2B47"
+        android:text="Go Premium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <TextView
+        android:id="@+id/premium_square"
+        android:layout_width="153dp"
+        android:layout_height="129dp"
+        android:background="#F2F2F3"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
