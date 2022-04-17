@@ -44,10 +44,10 @@ myVariable="cansu"
 
 CEVAPLAR :
 
-Uygulama geliştirirken tasarım tarafında yapılan değişikliklerin çıktısını uygulamayı çalıştırmadan anında görebilmek tools attribute sayesinde olur. Bu attribute,  layout un varsayılan olarak hangi activity ile ilişkili olduğunu bildirir.
+Uygulama geliştirirken tasarım tarafında yapılan değişikliklerin çıktısını uygulamayı çalıştırmadan anında görebilmek tools attribute sayesinde olur. Bu attribute,  layout un varsayılan olarak hangi activity ile ilişkili olduğunu bildirir. Tools namespace ile gelen özellikleri kullanabilmek için her xml dosyasının root etiketine xmlns:tools="http://schemas.android.com/tools" eklenir.
 
 Tools Attribute Kullanımı :
 
-xmlns:tools=http://schemas.android.com/tools
+android:background="@color/<some-color>"
 
 tools:background="@color/<some-color>"
