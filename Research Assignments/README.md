@@ -44,6 +44,6 @@ myVariable="cansu"
 
 CEVAPLAR :
 
-Uygulama geliştirirken tasarım tarafında yapılan değişikliklerin çıktısını uygulamayı çalıştırmadan anında görebilmek tools attribute sayesinde olur. Bu attribute, bu layout un varsayılan olarak hangi activity ile ilişkili olduğunu bildirir. Bu, layout ön izlemesinde, layout temasının önizlemede ne olması gerektiği ve onClick bunları bir hızlı düzeltmeden yaptığınızda işleyicilerin nereye ekleneceği gibi etkinlik hakkında bilgi gerektiren özellikleri etkinleştirir.
+Uygulama geliştirirken tasarım tarafında yapılan değişikliklerin çıktısını uygulamayı çalıştırmadan anında görebilmek tools attribute sayesinde olur. Bu attribute,  layout un varsayılan olarak hangi activity ile ilişkili olduğunu bildirir.
 
 Tools Attribute Kullanımı :
