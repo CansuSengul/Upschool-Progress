@@ -11,7 +11,7 @@
 - Lateinit kullanımından bahseder misiniz?
 - Lateinit için bir örnek kullanım gösterir misiniz ?
 
-Cevaplar:
+CEVAPLAR :
 
 Kotlin programlama dilinde birden çok değişken ve değişken tanımlama türleri vardır.
 
@@ -40,3 +40,10 @@ myVariable="cansu"
 - Neden kullanılmaktadır ?
 - Nasıl kullanılmalıdır ?
 - Bir adet Tools (tools namespace) attribute kullanımını gösterir misiniz ? 
+
+
+CEVAPLAR :
+
+Uygulama geliştirirken tasarım tarafında yapılan değişikliklerin çıktısını uygulamayı çalıştırmadan anında görebilmek tools attribute sayesinde olur. Bu attribute, bu layout un varsayılan olarak hangi activity ile ilişkili olduğunu bildirir. Bu, layout ön izlemesinde, layout temasının önizlemede ne olması gerektiği ve onClick bunları bir hızlı düzeltmeden yaptığınızda işleyicilerin nereye ekleneceği gibi etkinlik hakkında bilgi gerektiren özellikleri etkinleştirir.
+
+Tools Attribute Kullanımı :
