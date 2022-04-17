@@ -47,3 +47,7 @@ CEVAPLAR :
 Uygulama geliştirirken tasarım tarafında yapılan değişikliklerin çıktısını uygulamayı çalıştırmadan anında görebilmek tools attribute sayesinde olur. Bu attribute,  layout un varsayılan olarak hangi activity ile ilişkili olduğunu bildirir.
 
 Tools Attribute Kullanımı :
+
+xmlns:tools=http://schemas.android.com/tools
+
+tools:background="@color/<some-color>"
