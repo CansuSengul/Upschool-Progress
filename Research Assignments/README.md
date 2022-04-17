@@ -24,7 +24,7 @@ Lateinit sadece var olan değişkenlerde kullanılır. Bu değişkeni herhangi b
 
 Lateinit kullanmanın temel amacı, derleyiciye bu değişkenin geç başlatılacağını söylemektir ve başlatılana kadar da bellekte yer almaz.
 
-Lateinit Kullanımı 
+Lateinit Kullanımı:
 
 
 lateinit var myVariable: String
